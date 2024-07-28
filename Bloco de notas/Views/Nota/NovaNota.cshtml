@@ -1,14 +1,16 @@
-﻿@{
+﻿@model Nota
+
+@{
     Layout = "_Layout";
 }
 
 <form>
   <div class="form-group">
     <label for="TituloNota">Titulo:</label>
-    <input type="email" class="form-control" id="TituloNota"  placeholder="Titulo">
+    <input type="email" class="form-control" id="TituloNota"  placeholder="Titulo" asp-for="@Model.Titulo">
   </div>
   <div class="form-group">
     <label for="TextoNota">Texto:</label>
-    <textarea class="form-control" id="TextoNota" rows="6"></textarea>
+    <textarea class="form-control" id="TextoNota" rows="6" asp-for="@Model.Texto"></textarea>
   </div>
 </form>
