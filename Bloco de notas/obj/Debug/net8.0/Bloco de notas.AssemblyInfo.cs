@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Bloco de notas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eaf33275cc2386dd503e51d01b0e76ca446f3810")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d4a36f51ad4f697c7d81771ecef1c73045ae799")]
 [assembly: System.Reflection.AssemblyProductAttribute("Bloco de notas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Bloco de notas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
