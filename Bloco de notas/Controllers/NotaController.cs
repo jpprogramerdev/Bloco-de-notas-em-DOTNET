@@ -11,11 +11,28 @@ namespace Bloco_de_notas.Controllers {
             return View();
         }
 
+        public IActionResult TodasNotas() {
+            IFacadeNota facadeNota = new FacadeNota();
+            List<Nota> notas = CastingNota(facadeNota.SelecionarTodasNotas());
+            return View(notas);
+        }
+
         [HttpPost]
         public IActionResult CriarNovaNota(Nota nota) {
             IFacadeNota facadeNota = new FacadeNota();
             facadeNota.SalvarNota(nota);
             return View("NovaNota");
+        }
+
+
+        private List<Nota> CastingNota(List<EntidadeDominio> lista) {
+            List<Nota> notas = new();
+            
+            foreach(Nota nota in lista) {
+                notas.Add(nota);
+            }
+
+            return notas;
         }
     }
 }

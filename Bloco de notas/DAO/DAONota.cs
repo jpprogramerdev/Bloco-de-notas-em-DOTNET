@@ -28,12 +28,33 @@ namespace Bloco_de_notas.DAO {
                     query.Parameters.AddWithValue("@DtAtualizacao", DateTime.Now);
 
                     query.ExecuteNonQuery();
-                } 
+                }
+                Database.CloseConnection(conn);
             }
         }
 
         public List<EntidadeDominio> SelectAll() {
-            throw new NotImplementedException();
+            string Select = "SELECT * FROM NOTAS;";
+
+            List<EntidadeDominio> dados = new();
+
+            using (SqlConnection conn = Database.OpenConnection()) {
+                using (SqlCommand query = new(Select, conn)) {
+                    using (SqlDataReader reader = query.ExecuteReader()) {
+                        while (reader.Read()) {
+                            Nota nota = new Nota();
+                            nota.Titulo = reader.GetString(reader.GetOrdinal("NTS_Titulo"));
+                            nota.DataCriacao = reader.GetDateTime(reader.GetOrdinal("NTS_DataCriacao"));
+                            nota.DataAlteracao = reader.GetDateTime(reader.GetOrdinal("NTS_DataUltimaAtualizacao"));
+
+                            dados.Add(nota);
+                        }
+                    }
+                }
+                Database.CloseConnection(conn);
+            }
+
+            return dados;
         }
 
         public void Update(EntidadeDominio entidade) {

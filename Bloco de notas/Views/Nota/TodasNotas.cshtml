@@ -1,0 +1,19 @@
+﻿@model IEnumerable<Nota>
+
+@{
+    ViewData["Title"] = "Todas as notas";
+
+    Layout = "_layout";
+}
+
+@foreach(Nota nota in Model) {
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">@nota.Titulo</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Criada em : @nota.DataCriacao.ToString("dd/MM/yyyy")</h6>
+            @if(nota.DataCriacao != nota.DataAlteracao) {
+                <h6 class="card-subtitle mb-2 text-muted">Ultima alteração em : @nota.DataAlteracao.ToString("dd-MM-yyyy")</h6>
+            }
+      </div>
+    </div>
+}

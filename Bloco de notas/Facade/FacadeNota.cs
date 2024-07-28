@@ -10,13 +10,9 @@ namespace Bloco_de_notas.Facade {
         public FacadeNota() {
             DAO = new DAONota();
         }
-        public void SalvarNota(EntidadeDominio entidade) {
-            DAO.Insert(entidade);
-        }
+        public void SalvarNota(EntidadeDominio entidade) => DAO.Insert(entidade);
 
-        public List<EntidadeDominio> SelecionarTodasNotas() {
-            throw new NotImplementedException();
-        }
+        public List<EntidadeDominio> SelecionarTodasNotas() =>  DAO.SelectAll();
     }
 }
     
