@@ -3,6 +3,6 @@
 namespace Bloco_de_notas.DAO.Interfaces {
     public interface IDAODatabase {
         public SqlConnection OpenConnection();
-        public SqlConnection CloseConnection();
+        public void CloseConnection(SqlConnection conn);
     }
 }
