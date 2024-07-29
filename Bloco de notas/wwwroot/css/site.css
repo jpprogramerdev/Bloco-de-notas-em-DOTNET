@@ -20,3 +20,13 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+
+.painel-card {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: auto;
+    grid-gap: 12px;
+}
