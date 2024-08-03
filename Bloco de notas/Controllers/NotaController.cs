@@ -5,6 +5,7 @@ using Bloco_de_notas.Facade.Interfaces;
 using Bloco_de_notas.Models;
 using Microsoft.AspNetCore.Mvc;
 
+
 namespace Bloco_de_notas.Controllers {
     public class NotaController : Controller {
         public IActionResult NovaNota() {
@@ -17,6 +18,12 @@ namespace Bloco_de_notas.Controllers {
             return View(notas);
         }
 
+        public IActionResult EditarNota(int id) {
+            IFacadeNota facadeNota = new FacadeNota();
+            Nota nota = (Nota)facadeNota.SelecionarPorId(id);
+            return View(nota);
+        }
+
         [HttpPost]
         public IActionResult CriarNovaNota(Nota nota) {
             IFacadeNota facadeNota = new FacadeNota();
@@ -24,6 +31,12 @@ namespace Bloco_de_notas.Controllers {
             return View("NovaNota");
         }
 
+        [HttpPost]
+        public IActionResult AtualizarNota(Nota Nota) {
+            IFacadeNota facadeNota = new FacadeNota();
+            facadeNota.AtualizarNota(Nota);
+            return View("NovaNota");
+        }
 
         private List<Nota> CastingNota(List<EntidadeDominio> lista) {
             List<Nota> notas = new();

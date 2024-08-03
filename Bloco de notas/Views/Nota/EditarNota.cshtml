@@ -1,0 +1,24 @@
+﻿@model Nota
+
+@{
+    ViewData["Title"] = "Editar nota";
+
+    Layout = "_Layout";
+}
+
+<p>Criado em: @Model.DataCriacao.ToString("dd/MM/yyyy")</p>
+<p>Ultima alteração: @Model.DataAlteracao.ToString("dd/MM/yyyy")</p>
+
+<form asp-action="AtualizarNota" asp-controller="Nota" method="post">
+    <input type="hidden" asp-for="@Model.Id" />
+    <input type="hidden" asp-for="@Model.DataCriacao" />
+    <div class="form-group">
+        <label for="TituloNota">Titulo:</label>
+        <input type="text" class="form-control" id="TituloNota" placeholder="Titulo" asp-for="@Model.Titulo">
+    </div>
+    <div class="form-group">
+        <label for="TextoNota">Texto:</label>
+        <textarea class="form-control" id="TextoNota" rows="6" asp-for="@Model.Texto"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Salvar</button>
+</form>

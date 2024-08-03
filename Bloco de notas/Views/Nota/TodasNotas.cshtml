@@ -8,14 +8,16 @@
 
 <div class="painel-card">
 @foreach(Nota nota in Model) {
+    <a asp-controller="Nota" asp-action="EditarNota" asp-route-id="@nota.Id">
     <div class="card" style="width: 18rem;">
       <div class="card-body">
         <h5 class="card-title">@nota.Titulo</h5>
         <h6 class="card-subtitle mb-2 text-muted">Criada em : @nota.DataCriacao.ToString("dd/MM/yyyy")</h6>
             @if(nota.DataCriacao != nota.DataAlteracao) {
-                <h6 class="card-subtitle mb-2 text-muted">Ultima alteração em : @nota.DataAlteracao.ToString("dd-MM-yyyy")</h6>
+                <h6 class="card-subtitle mb-2 text-muted">Ultima alteração em : @nota.DataAlteracao.ToString("dd/MM/yyyy")</h6>
             }
       </div>
     </div>
+    </a>
 }
 </div>

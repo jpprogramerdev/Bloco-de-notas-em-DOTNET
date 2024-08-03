@@ -13,6 +13,14 @@ namespace Bloco_de_notas.Facade {
         public void SalvarNota(EntidadeDominio entidade) => DAO.Insert(entidade);
 
         public List<EntidadeDominio> SelecionarTodasNotas() =>  DAO.SelectAll();
+
+        public EntidadeDominio SelecionarPorId(int Id) {
+            return DAO.SelectById(Id);
+        }
+
+        public void AtualizarNota(EntidadeDominio entidade) {
+            DAO.Update(entidade);
+        }
     }
 }
     
