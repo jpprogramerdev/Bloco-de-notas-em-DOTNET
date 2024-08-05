@@ -6,5 +6,6 @@ namespace Bloco_de_notas.Facade.Interfaces {
         public void SalvarNota(EntidadeDominio entidade);
         public EntidadeDominio SelecionarPorId(int Id);
         public void AtualizarNota(EntidadeDominio entidade);
+        public void ApagarNota(int Id);
     }
 }

@@ -21,6 +21,10 @@ namespace Bloco_de_notas.Facade {
         public void AtualizarNota(EntidadeDominio entidade) {
             DAO.Update(entidade);
         }
+
+        public void ApagarNota(int Id) {
+            DAO.Delete(Id);
+        }
     }
 }
     
