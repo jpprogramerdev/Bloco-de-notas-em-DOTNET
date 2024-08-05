@@ -6,6 +6,6 @@ namespace Bloco_de_notas.DAO.Interfaces {
         public List<EntidadeDominio> SelectAll();
         public void Insert(EntidadeDominio entidade);
         public void Update(EntidadeDominio entidade);
-        public void Delete(EntidadeDominio entidade);
+        public void Delete(int id);
     }
 }
