@@ -7,24 +7,17 @@ namespace Bloco_de_notas.Facade {
     public class FacadeNota : IFacadeNota {
         public IDAOGeneric DAO { get; set; }
 
-        public FacadeNota() {
-            DAO = new DAONota();
-        }
+        public FacadeNota() => DAO = new DAONota();
+        
         public void SalvarNota(EntidadeDominio entidade) => DAO.Insert(entidade);
 
         public List<EntidadeDominio> SelecionarTodasNotas() =>  DAO.SelectAll();
 
-        public EntidadeDominio SelecionarPorId(int Id) {
-            return DAO.SelectById(Id);
-        }
+        public EntidadeDominio SelecionarPorId(int Id) => DAO.SelectById(Id);
 
-        public void AtualizarNota(EntidadeDominio entidade) {
-            DAO.Update(entidade);
-        }
-
-        public void ApagarNota(int Id) {
-            DAO.Delete(Id);
-        }
+        public void AtualizarNota(EntidadeDominio entidade) => DAO.Update(entidade);
+        
+        public void ApagarNota(int Id) => DAO.Delete(Id);
     }
 }
     
