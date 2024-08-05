@@ -11,7 +11,14 @@ namespace Bloco_de_notas.DAO {
         }
 
         public void Delete(int id) {
-            throw new NotImplementedException();
+            string Delete = "DELETE NOTAS WHERE NTS_Id = @Id;";
+
+            using (SqlConnection conn = Database.OpenConnection()) {
+                using (SqlCommand query = new(Delete, conn)) {
+                    query.Parameters.AddWithValue("@Id", id);
+                    query.ExecuteNonQuery();
+                }
+            }
         }
 
         public void Insert(EntidadeDominio entidade) {
