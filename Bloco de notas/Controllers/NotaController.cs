@@ -38,7 +38,6 @@ namespace Bloco_de_notas.Controllers {
             return RedirectToAction("TodasNotas");
         }
 
-        [HttpPost]
         public IActionResult ExcluirNota(int id) {
             IFacadeNota facadeNota = new FacadeNota();
             facadeNota.ApagarNota(id);
