@@ -35,7 +35,7 @@ namespace Bloco_de_notas.Controllers {
         public IActionResult AtualizarNota(Nota Nota) {
             IFacadeNota facadeNota = new FacadeNota();
             facadeNota.AtualizarNota(Nota);
-            return View("NovaNota");
+            return RedirectToAction("TodasNotas");
         }
 
         private List<Nota> CastingNota(List<EntidadeDominio> lista) {
