@@ -10,7 +10,7 @@ namespace Bloco_de_notas.DAO {
             Database = new DAOSQLServer();
         }
 
-        public void Delete(EntidadeDominio entidade) {
+        public void Delete(int id) {
             throw new NotImplementedException();
         }
 

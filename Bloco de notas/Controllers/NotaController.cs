@@ -38,6 +38,13 @@ namespace Bloco_de_notas.Controllers {
             return RedirectToAction("TodasNotas");
         }
 
+        [HttpPost]
+        public IActionResult ExcluirNota(int id) {
+            IFacadeNota facadeNota = new FacadeNota();
+            facadeNota.AtualizarNota(Nota);
+            return RedirectToAction("TodasNotas");
+        }
+
         private List<Nota> CastingNota(List<EntidadeDominio> lista) {
             List<Nota> notas = new();
             

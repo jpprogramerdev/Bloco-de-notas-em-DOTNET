@@ -17,6 +17,7 @@
              <h6 class="card-subtitle mb-2 text-muted">Ultima alteração em : @nota.DataAlteracao.ToString("dd/MM/yyyy")</h6>
         }
        <a asp-controller="Nota" asp-action="EditarNota" asp-route-id="@nota.Id">Editar</a>
+       <a asp-controller="Nota" asp-action="EditarNota" asp-route-id="@nota.Id">Excluir</a>
       </div>
     </div> 
 }
