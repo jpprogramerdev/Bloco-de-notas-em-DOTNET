@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "Bloco de notas\\Controllers\\NotaController.cs",
               "ToolTip": "D:\\Arquivos\\Projetos\\Bloco de notas\\Bloco de notas\\Controllers\\NotaController.cs",
               "RelativeToolTip": "Bloco de notas\\Controllers\\NotaController.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAA1wCcAAAAAAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAwCgAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-27T23:38:29.922Z",
               "IsPinned": true,
@@ -60,8 +60,7 @@
               "RelativeToolTip": "Bloco de notas\\Facade\\Interfaces\\IFacadeNota.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T00:56:25.231Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-05T00:56:25.231Z"
             },
             {
               "$type": "Document",
@@ -73,8 +72,7 @@
               "RelativeToolTip": "Bloco de notas\\Facade\\FacadeNota.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAAywBQAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T00:55:50.641Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-05T00:55:50.641Z"
             },
             {
               "$type": "Document",
@@ -86,8 +84,7 @@
               "RelativeToolTip": "Bloco de notas\\DAO\\Interfaces\\IDAOGeneric.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T00:49:50.089Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-05T00:49:50.089Z"
             },
             {
               "$type": "Document",
@@ -99,8 +96,7 @@
               "RelativeToolTip": "Bloco de notas\\DAO\\DAONota.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAYwB0AAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T00:49:41.324Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-05T00:49:41.324Z"
             },
             {
               "$type": "Document",
@@ -112,8 +108,7 @@
               "RelativeToolTip": "Bloco de notas\\Views\\Nota\\TodasNotas.cshtml",
               "ViewState": "AQIAAAIAAAAAAAAAAAAxwA8AAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-05T00:46:28.251Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-05T00:46:28.251Z"
             }
           ]
         }
