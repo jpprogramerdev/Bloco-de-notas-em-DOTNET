@@ -13,3 +13,13 @@ CREATE TABLE Notas(
 	NTS_DataUltimaAtualizacao Date not null,
 	CONSTRAINT PK_NTS PRIMARY KEY(NTS_Id)
 );
+
+--Trigrama = USU
+CREATE TABLE Usuarios(
+	USU_Id int IDENTITY (1,1),
+	USU_Nome varchar(500) not null,
+	USU_Dtnascimento DATE not null,
+	USU_email varchar(500) not null,
+	USU_Senha varchar(500) not null,
+	CONSTRAINT PK_USU PRIMARY KEY (USU_Id)
+);
