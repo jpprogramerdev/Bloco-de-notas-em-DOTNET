@@ -4,6 +4,16 @@ USE BlocoDeNotas;
 
 DROP TABLE NOTAS;
 
+--Trigrama = USU
+CREATE TABLE Usuarios(
+	USU_Id int IDENTITY (1,1),
+	USU_Nome varchar(500) not null,
+	USU_Dtnascimento DATE not null,
+	USU_email varchar(500) not null UNIQUE,
+	USU_Senha varchar(500) not null,
+	CONSTRAINT PK_USU PRIMARY KEY (USU_Id)
+); 
+
 --Trigrama = NTS
 CREATE TABLE Notas(
 	NTS_Id int IDENTITY (1,1),
@@ -16,12 +26,3 @@ CREATE TABLE Notas(
 	CONSTRAINT FK_NTS_USU FOREIGN KEY (NTS_USU_Id) REFERENCES USUARIOS(USU_Id)
 );
 
---Trigrama = USU
-CREATE TABLE Usuarios(
-	USU_Id int IDENTITY (1,1),
-	USU_Nome varchar(500) not null,
-	USU_Dtnascimento DATE not null,
-	USU_email varchar(500) not null,
-	USU_Senha varchar(500) not null,
-	CONSTRAINT PK_USU PRIMARY KEY (USU_Id)
-); 
