@@ -11,7 +11,9 @@ CREATE TABLE Notas(
 	NTS_Texto varchar(8000) not null,
 	NTS_DataCriacao Date not null,
 	NTS_DataUltimaAtualizacao Date not null,
-	CONSTRAINT PK_NTS PRIMARY KEY(NTS_Id)
+	NTS_USU_Id int not null,
+	CONSTRAINT PK_NTS PRIMARY KEY(NTS_Id),
+	CONSTRAINT FK_NTS_USU FOREIGN KEY (NTS_USU_Id) REFERENCES USUARIOS(USU_Id)
 );
 
 --Trigrama = USU
@@ -22,4 +24,4 @@ CREATE TABLE Usuarios(
 	USU_email varchar(500) not null,
 	USU_Senha varchar(500) not null,
 	CONSTRAINT PK_USU PRIMARY KEY (USU_Id)
-);
+); 
