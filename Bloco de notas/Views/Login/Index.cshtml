@@ -2,9 +2,15 @@
 
 @{
     ViewData["Title"] = "Login ";
+
+    if(TempData["FalhaLogin"] != null) {
+        <div class="alert alert-danger" role="alert">
+            @TempData["FalhaLogin"]
+        </div>
+    }
 }
 
-<form asp-action="CriarNovaNota" asp-controller="Login" method="post">
+<form asp-action="Login" asp-controller="Login" method="post">
     <div class="form-group">
         <label for="email-user">Email:</label>
         <input type="text" class="form-control" id="email-user" placeholder="Email" asp-for="@Model.Email">

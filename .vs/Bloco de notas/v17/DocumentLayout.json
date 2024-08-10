@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "D:\\Arquivos\\Projetos\\Bloco de notas\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{210D3483-30AF-4236-9B58-DC38633E2ECF}|Bloco de notas\\Bloco de notas.csproj|d:\\arquivos\\projetos\\bloco de notas\\bloco de notas\\dao\\daousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{210D3483-30AF-4236-9B58-DC38633E2ECF}|Bloco de notas\\Bloco de notas.csproj|solutionrelative:bloco de notas\\dao\\daousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{210D3483-30AF-4236-9B58-DC38633E2ECF}|Bloco de notas\\Bloco de notas.csproj|d:\\arquivos\\projetos\\bloco de notas\\bloco de notas\\dao\\daosqlserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{210D3483-30AF-4236-9B58-DC38633E2ECF}|Bloco de notas\\Bloco de notas.csproj|solutionrelative:bloco de notas\\dao\\daosqlserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{210D3483-30AF-4236-9B58-DC38633E2ECF}|Bloco de notas\\Bloco de notas.csproj|d:\\arquivos\\projetos\\bloco de notas\\bloco de notas\\facade\\facadeusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{210D3483-30AF-4236-9B58-DC38633E2ECF}|Bloco de notas\\Bloco de notas.csproj|solutionrelative:bloco de notas\\facade\\facadeusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{210D3483-30AF-4236-9B58-DC38633E2ECF}|Bloco de notas\\Bloco de notas.csproj|d:\\arquivos\\projetos\\bloco de notas\\bloco de notas\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{210D3483-30AF-4236-9B58-DC38633E2ECF}|Bloco de notas\\Bloco de notas.csproj|solutionrelative:bloco de notas\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{210D3483-30AF-4236-9B58-DC38633E2ECF}|Bloco de notas\\Bloco de notas.csproj|d:\\arquivos\\projetos\\bloco de notas\\bloco de notas\\views\\nota\\novanota.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{210D3483-30AF-4236-9B58-DC38633E2ECF}|Bloco de notas\\Bloco de notas.csproj|solutionrelative:bloco de notas\\views\\nota\\novanota.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{210D3483-30AF-4236-9B58-DC38633E2ECF}|Bloco de notas\\Bloco de notas.csproj|d:\\arquivos\\projetos\\bloco de notas\\bloco de notas\\dao\\interfaces\\idaousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{210D3483-30AF-4236-9B58-DC38633E2ECF}|Bloco de notas\\Bloco de notas.csproj|solutionrelative:bloco de notas\\dao\\interfaces\\idaousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{210D3483-30AF-4236-9B58-DC38633E2ECF}|Bloco de notas\\Bloco de notas.csproj|d:\\arquivos\\projetos\\bloco de notas\\bloco de notas\\dao\\daonota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{210D3483-30AF-4236-9B58-DC38633E2ECF}|Bloco de notas\\Bloco de notas.csproj|solutionrelative:bloco de notas\\dao\\daonota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{210D3483-30AF-4236-9B58-DC38633E2ECF}|Bloco de notas\\Bloco de notas.csproj|d:\\arquivos\\projetos\\bloco de notas\\bloco de notas\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,8 +39,8 @@
       "RelativeMoniker": "D:0:0:{210D3483-30AF-4236-9B58-DC38633E2ECF}|Bloco de notas\\Bloco de notas.csproj|solutionrelative:bloco de notas\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{210D3483-30AF-4236-9B58-DC38633E2ECF}|Bloco de notas\\Bloco de notas.csproj|d:\\arquivos\\projetos\\bloco de notas\\bloco de notas\\views\\nota\\novanota.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{210D3483-30AF-4236-9B58-DC38633E2ECF}|Bloco de notas\\Bloco de notas.csproj|solutionrelative:bloco de notas\\views\\nota\\novanota.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{210D3483-30AF-4236-9B58-DC38633E2ECF}|Bloco de notas\\Bloco de notas.csproj|d:\\arquivos\\projetos\\bloco de notas\\bloco de notas\\facade\\interfaces\\ifacadeusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{210D3483-30AF-4236-9B58-DC38633E2ECF}|Bloco de notas\\Bloco de notas.csproj|solutionrelative:bloco de notas\\facade\\interfaces\\ifacadeusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,7 +58,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "FacadeUsuario.cs",
+              "DocumentMoniker": "D:\\Arquivos\\Projetos\\Bloco de notas\\Bloco de notas\\Facade\\FacadeUsuario.cs",
+              "RelativeDocumentMoniker": "Bloco de notas\\Facade\\FacadeUsuario.cs",
+              "ToolTip": "D:\\Arquivos\\Projetos\\Bloco de notas\\Bloco de notas\\Facade\\FacadeUsuario.cs",
+              "RelativeToolTip": "Bloco de notas\\Facade\\FacadeUsuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T12:02:41.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IFacadeUsuario.cs",
+              "DocumentMoniker": "D:\\Arquivos\\Projetos\\Bloco de notas\\Bloco de notas\\Facade\\Interfaces\\IFacadeUsuario.cs",
+              "RelativeDocumentMoniker": "Bloco de notas\\Facade\\Interfaces\\IFacadeUsuario.cs",
+              "ToolTip": "D:\\Arquivos\\Projetos\\Bloco de notas\\Bloco de notas\\Facade\\Interfaces\\IFacadeUsuario.cs",
+              "RelativeToolTip": "Bloco de notas\\Facade\\Interfaces\\IFacadeUsuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T12:02:03.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DAONota.cs",
+              "DocumentMoniker": "D:\\Arquivos\\Projetos\\Bloco de notas\\Bloco de notas\\DAO\\DAONota.cs",
+              "RelativeDocumentMoniker": "Bloco de notas\\DAO\\DAONota.cs",
+              "ToolTip": "D:\\Arquivos\\Projetos\\Bloco de notas\\Bloco de notas\\DAO\\DAONota.cs",
+              "RelativeToolTip": "Bloco de notas\\DAO\\DAONota.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T11:52:42.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DAOSQLServer.cs",
+              "DocumentMoniker": "D:\\Arquivos\\Projetos\\Bloco de notas\\Bloco de notas\\DAO\\DAOSQLServer.cs",
+              "RelativeDocumentMoniker": "Bloco de notas\\DAO\\DAOSQLServer.cs",
+              "ToolTip": "D:\\Arquivos\\Projetos\\Bloco de notas\\Bloco de notas\\DAO\\DAOSQLServer.cs",
+              "RelativeToolTip": "Bloco de notas\\DAO\\DAOSQLServer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAcwBwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T11:56:38.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IDAOUsuario.cs",
+              "DocumentMoniker": "D:\\Arquivos\\Projetos\\Bloco de notas\\Bloco de notas\\DAO\\Interfaces\\IDAOUsuario.cs",
+              "RelativeDocumentMoniker": "Bloco de notas\\DAO\\Interfaces\\IDAOUsuario.cs",
+              "ToolTip": "D:\\Arquivos\\Projetos\\Bloco de notas\\Bloco de notas\\DAO\\Interfaces\\IDAOUsuario.cs",
+              "RelativeToolTip": "Bloco de notas\\DAO\\Interfaces\\IDAOUsuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T11:54:49.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DAOUsuario.cs",
+              "DocumentMoniker": "D:\\Arquivos\\Projetos\\Bloco de notas\\Bloco de notas\\DAO\\DAOUsuario.cs",
+              "RelativeDocumentMoniker": "Bloco de notas\\DAO\\DAOUsuario.cs",
+              "ToolTip": "D:\\Arquivos\\Projetos\\Bloco de notas\\Bloco de notas\\DAO\\DAOUsuario.cs",
+              "RelativeToolTip": "Bloco de notas\\DAO\\DAOUsuario.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAjwCcAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T11:52:58.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "NovaNota.cshtml",
               "DocumentMoniker": "D:\\Arquivos\\Projetos\\Bloco de notas\\Bloco de notas\\Views\\Nota\\NovaNota.cshtml",
               "RelativeDocumentMoniker": "Bloco de notas\\Views\\Nota\\NovaNota.cshtml",
@@ -42,11 +144,12 @@
               "RelativeToolTip": "Bloco de notas\\Views\\Nota\\NovaNota.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-10T01:09:31.593Z"
+              "WhenOpened": "2024-08-10T01:09:31.593Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "Usuario.cs",
               "DocumentMoniker": "D:\\Arquivos\\Projetos\\Bloco de notas\\Bloco de notas\\Models\\Usuario.cs",
               "RelativeDocumentMoniker": "Bloco de notas\\Models\\Usuario.cs",
@@ -54,29 +157,31 @@
               "RelativeToolTip": "Bloco de notas\\Models\\Usuario.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-10T01:09:19.648Z"
+              "WhenOpened": "2024-08-10T01:09:19.648Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Arquivos\\Projetos\\Bloco de notas\\Bloco de notas\\Views\\Login\\Index.cshtml",
               "RelativeDocumentMoniker": "Bloco de notas\\Views\\Login\\Index.cshtml",
               "ToolTip": "D:\\Arquivos\\Projetos\\Bloco de notas\\Bloco de notas\\Views\\Login\\Index.cshtml",
               "RelativeToolTip": "Bloco de notas\\Views\\Login\\Index.cshtml",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAswAwAAAAtAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-10T01:08:29.658Z"
+              "WhenOpened": "2024-08-10T01:08:29.658Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "LoginController.cs",
               "DocumentMoniker": "D:\\Arquivos\\Projetos\\Bloco de notas\\Bloco de notas\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "Bloco de notas\\Controllers\\LoginController.cs",
               "ToolTip": "D:\\Arquivos\\Projetos\\Bloco de notas\\Bloco de notas\\Controllers\\LoginController.cs",
               "RelativeToolTip": "Bloco de notas\\Controllers\\LoginController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAaAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-10T01:08:08.122Z",
               "EditorCaption": ""
