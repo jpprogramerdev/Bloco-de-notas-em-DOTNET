@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Arquivos\\Projetos\\Bloco de notas\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{210D3483-30AF-4236-9B58-DC38633E2ECF}|Bloco de notas\\Bloco de notas.csproj|d:\\arquivos\\projetos\\bloco de notas\\bloco de notas\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{210D3483-30AF-4236-9B58-DC38633E2ECF}|Bloco de notas\\Bloco de notas.csproj|solutionrelative:bloco de notas\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{210D3483-30AF-4236-9B58-DC38633E2ECF}|Bloco de notas\\Bloco de notas.csproj|d:\\arquivos\\projetos\\bloco de notas\\bloco de notas\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{210D3483-30AF-4236-9B58-DC38633E2ECF}|Bloco de notas\\Bloco de notas.csproj|solutionrelative:bloco de notas\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -46,7 +50,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "NotaController.cs",
               "DocumentMoniker": "D:\\Arquivos\\Projetos\\Bloco de notas\\Bloco de notas\\Controllers\\NotaController.cs",
               "RelativeDocumentMoniker": "Bloco de notas\\Controllers\\NotaController.cs",
@@ -60,19 +64,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Arquivos\\Projetos\\Bloco de notas\\Bloco de notas\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Bloco de notas\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Arquivos\\Projetos\\Bloco de notas\\Bloco de notas\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Bloco de notas\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAxwAgAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-06T00:24:14.109Z",
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "D:\\Arquivos\\Projetos\\Bloco de notas\\Bloco de notas\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "Bloco de notas\\Models\\Usuario.cs",
+              "ToolTip": "D:\\Arquivos\\Projetos\\Bloco de notas\\Bloco de notas\\Models\\Usuario.cs",
+              "RelativeToolTip": "Bloco de notas\\Models\\Usuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T21:47:44.01Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Arquivos\\Projetos\\Bloco de notas\\Bloco de notas\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Bloco de notas\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Arquivos\\Projetos\\Bloco de notas\\Bloco de notas\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Bloco de notas\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAswBQAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T00:24:14.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "D:\\Arquivos\\Projetos\\Bloco de notas\\Bloco de notas\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Bloco de notas\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -84,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "IFacadeNota.cs",
               "DocumentMoniker": "D:\\Arquivos\\Projetos\\Bloco de notas\\Bloco de notas\\Facade\\Interfaces\\IFacadeNota.cs",
               "RelativeDocumentMoniker": "Bloco de notas\\Facade\\Interfaces\\IFacadeNota.cs",
@@ -96,7 +112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "FacadeNota.cs",
               "DocumentMoniker": "D:\\Arquivos\\Projetos\\Bloco de notas\\Bloco de notas\\Facade\\FacadeNota.cs",
               "RelativeDocumentMoniker": "Bloco de notas\\Facade\\FacadeNota.cs",
@@ -108,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "IDAOGeneric.cs",
               "DocumentMoniker": "D:\\Arquivos\\Projetos\\Bloco de notas\\Bloco de notas\\DAO\\Interfaces\\IDAOGeneric.cs",
               "RelativeDocumentMoniker": "Bloco de notas\\DAO\\Interfaces\\IDAOGeneric.cs",
@@ -120,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "DAONota.cs",
               "DocumentMoniker": "D:\\Arquivos\\Projetos\\Bloco de notas\\Bloco de notas\\DAO\\DAONota.cs",
               "RelativeDocumentMoniker": "Bloco de notas\\DAO\\DAONota.cs",
@@ -132,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "TodasNotas.cshtml",
               "DocumentMoniker": "D:\\Arquivos\\Projetos\\Bloco de notas\\Bloco de notas\\Views\\Nota\\TodasNotas.cshtml",
               "RelativeDocumentMoniker": "Bloco de notas\\Views\\Nota\\TodasNotas.cshtml",
