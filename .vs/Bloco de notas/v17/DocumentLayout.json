@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Arquivos\\Projetos\\Bloco de notas\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{210D3483-30AF-4236-9B58-DC38633E2ECF}|Bloco de notas\\Bloco de notas.csproj|d:\\arquivos\\projetos\\bloco de notas\\bloco de notas\\views\\nota\\todasnotas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{210D3483-30AF-4236-9B58-DC38633E2ECF}|Bloco de notas\\Bloco de notas.csproj|solutionrelative:bloco de notas\\views\\nota\\todasnotas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{210D3483-30AF-4236-9B58-DC38633E2ECF}|Bloco de notas\\Bloco de notas.csproj|d:\\arquivos\\projetos\\bloco de notas\\bloco de notas\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{210D3483-30AF-4236-9B58-DC38633E2ECF}|Bloco de notas\\Bloco de notas.csproj|solutionrelative:bloco de notas\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,10 +31,6 @@
       "RelativeMoniker": "D:0:0:{210D3483-30AF-4236-9B58-DC38633E2ECF}|Bloco de notas\\Bloco de notas.csproj|solutionrelative:bloco de notas\\dao\\daonota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{210D3483-30AF-4236-9B58-DC38633E2ECF}|Bloco de notas\\Bloco de notas.csproj|d:\\arquivos\\projetos\\bloco de notas\\bloco de notas\\views\\nota\\todasnotas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{210D3483-30AF-4236-9B58-DC38633E2ECF}|Bloco de notas\\Bloco de notas.csproj|solutionrelative:bloco de notas\\views\\nota\\todasnotas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{210D3483-30AF-4236-9B58-DC38633E2ECF}|Bloco de notas\\Bloco de notas.csproj|d:\\arquivos\\projetos\\bloco de notas\\bloco de notas\\facade\\facadenota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{210D3483-30AF-4236-9B58-DC38633E2ECF}|Bloco de notas\\Bloco de notas.csproj|solutionrelative:bloco de notas\\facade\\facadenota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -46,11 +46,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "NotaController.cs",
               "DocumentMoniker": "D:\\Arquivos\\Projetos\\Bloco de notas\\Bloco de notas\\Controllers\\NotaController.cs",
               "RelativeDocumentMoniker": "Bloco de notas\\Controllers\\NotaController.cs",
@@ -62,21 +62,25 @@
               "IsPinned": true
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Usuario.cs",
               "DocumentMoniker": "D:\\Arquivos\\Projetos\\Bloco de notas\\Bloco de notas\\Models\\Usuario.cs",
               "RelativeDocumentMoniker": "Bloco de notas\\Models\\Usuario.cs",
               "ToolTip": "D:\\Arquivos\\Projetos\\Bloco de notas\\Bloco de notas\\Models\\Usuario.cs",
               "RelativeToolTip": "Bloco de notas\\Models\\Usuario.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-08T21:47:44.01Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\Arquivos\\Projetos\\Bloco de notas\\Bloco de notas\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Bloco de notas\\Views\\Shared\\_Layout.cshtml",
@@ -88,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "D:\\Arquivos\\Projetos\\Bloco de notas\\Bloco de notas\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Bloco de notas\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -124,7 +128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "IDAOGeneric.cs",
               "DocumentMoniker": "D:\\Arquivos\\Projetos\\Bloco de notas\\Bloco de notas\\DAO\\Interfaces\\IDAOGeneric.cs",
               "RelativeDocumentMoniker": "Bloco de notas\\DAO\\Interfaces\\IDAOGeneric.cs",
@@ -136,7 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "DAONota.cs",
               "DocumentMoniker": "D:\\Arquivos\\Projetos\\Bloco de notas\\Bloco de notas\\DAO\\DAONota.cs",
               "RelativeDocumentMoniker": "Bloco de notas\\DAO\\DAONota.cs",
@@ -148,15 +152,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "TodasNotas.cshtml",
               "DocumentMoniker": "D:\\Arquivos\\Projetos\\Bloco de notas\\Bloco de notas\\Views\\Nota\\TodasNotas.cshtml",
               "RelativeDocumentMoniker": "Bloco de notas\\Views\\Nota\\TodasNotas.cshtml",
               "ToolTip": "D:\\Arquivos\\Projetos\\Bloco de notas\\Bloco de notas\\Views\\Nota\\TodasNotas.cshtml",
               "RelativeToolTip": "Bloco de notas\\Views\\Nota\\TodasNotas.cshtml",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAxwA8AAAA1AAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAmwBQAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-05T00:46:28.251Z"
+              "WhenOpened": "2024-08-05T00:46:28.251Z",
+              "EditorCaption": ""
             }
           ]
         }
