@@ -1,0 +1,17 @@
+﻿@model Usuario
+
+@{
+    ViewData["Title"] = "Login ";
+}
+
+<form asp-action="CriarNovaNota" asp-controller="Login" method="post">
+    <div class="form-group">
+        <label for="TituloNota">Email:</label>
+        <input type="text" class="form-control" id="TituloNota" placeholder="Titulo" asp-for="@Model.Email">
+    </div>
+    <div class="form-group">
+        <label for="TextoNota">Senha:</label>
+        <input type="password" class="form-control" id="TituloNota" placeholder="Titulo" asp-for="@Model.Senha">
+    </div>
+    <button type="submit" class="btn btn-primary">Entrar</button>
+</form>
